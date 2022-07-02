@@ -1,10 +1,15 @@
+*{
+    font-family: 'Space Grotesk', 'Oleo Script';
+}
 body{
     background-color: #C4C4C4;
+
 }
 
 .navbar{
     display:flex;
     justify-content: space-around;
+    border-bottom: 0.09px solid  grey;
 }
 
 #header{
@@ -20,5 +25,29 @@ body{
     word-spacing: 50px;
 }
 
+.topics{
+ padding: 5px;
+ border-radius: 5px;
+ background-color: #2549D3;
+ color: white;
+}
+.section1{
+    display: flex;
+    justify-content: space-around;
+    padding: 35px;
+    
+}
 
+.heroimg{
+    float: right;
+}
+.dreams{
+    font-size: 50px;
+    
+}
+.location{
+    margin: 10%;
+    display: flex;
+    justify-content: space-around;
+}
 
