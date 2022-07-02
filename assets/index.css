@@ -25,11 +25,14 @@ body{
     word-spacing: 50px;
 }
 
-.topics{
- padding: 5px;
+button{
+ padding: 10px;
  border-radius: 5px;
+ height: fit-content;
  background-color: #2549D3;
  color: white;
+ border: none;
+ font-weight: 600;
 }
 .section1{
     display: flex;
@@ -42,12 +45,34 @@ body{
     float: right;
 }
 .dreams{
-    font-size: 50px;
-    
+    font-size: 40px;
+    color: #2549D3;
 }
 .location{
-    margin: 10%;
+    padding: 2%;
     display: flex;
     justify-content: space-around;
+    background-color: rgb(228, 222, 222);
 }
 
+.section2{
+    margin:10%;
+}
+#h2{
+    float:left;
+    margin-bottom: 10%;
+
+ }
+.intro{
+    text-align: center;
+}
+
+.products{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.home{
+    text-align: center;
+}
