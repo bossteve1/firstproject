@@ -1,9 +1,9 @@
 # vallies estate
-This is my first project in moringa to recreate a real estate website to test if i understood the implementations of HTML covered in week 1
+My First real estate website
 
 
 ## link
-Here's the live link https://bossteve1.github.io/firstproject/
+[Here's the live link] (https://bossteve1.github.io/firstproject/)
 
  
 
@@ -16,6 +16,6 @@ fork and (or) clone the repo, make changes and commit the changes.
 [Stephen Bosire](https://github.com/bossteve1)
 
 
-## [license](https://github.com/bossteve1/firstproject/blob/master/LICENSE)
+## [license] MIT (https://github.com/bossteve1/firstproject/blob/master/LICENSE)
 
 
