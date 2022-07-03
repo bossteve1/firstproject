@@ -97,15 +97,26 @@ button{
 .featured{
     text-align: center;
 }
-.cards,.card_info{
+.cards,.card_info,.cards2{
     display: flex;
     justify-content: space-around;
 }
 .card{
     background-color: white;
     box-shadow: 2px 5px 10px gray;
+   
 }
-.section4>button{
+.section4>button,.section5>button{
     float: right;
     margin: 30px;
+}
+.section5{
+    padding: 80px;
+    
+}
+.card2{
+    background-color: white;
+    width: 25%;
+    padding: 2%;
+    
 }
