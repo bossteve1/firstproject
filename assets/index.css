@@ -1,5 +1,5 @@
 *{
-    font-family: 'Space Grotesk', 'Oleo Script';
+    font-family: 'Space Grotesk', sans-serif;;
 }
 body{
     background-color: #C4C4C4;
@@ -13,7 +13,7 @@ body{
 }
 
 #header{
-    font-style: italic;
+    font-family:'Oleo Script', cursive;;
 }
 
 .tabs{
@@ -58,18 +58,11 @@ button{
 .section2{
     margin:10%;
 }
-.prod{
-    float:left;
-    margin-bottom: 10%;
 
- }
-.intro{
-    text-align: center;
-    display: block;
-}
 
 .works{
     margin-top: 5%;
+    text-align: center;
 }
 
 .products{
@@ -86,7 +79,18 @@ button{
     justify-content: space-around;
 }
 
-.prod,#how{
+.prod,#how,.intro>h2,.why>h2{
     color:  #0F298B;
 }
 
+.checkbox{
+    display: flex;
+    justify-content: space-around;
+}
+
+.section3{
+    display: flex;
+    justify-content: space-around;
+    padding: 10%;
+    
+}
