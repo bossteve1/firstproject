@@ -79,7 +79,7 @@ button{
     justify-content: space-around;
 }
 
-.prod,#how,.intro>h2,.why>h2{
+.prod,#how,.intro>h2,.why>h2,.featured>h2{
     color:  #0F298B;
 }
 
@@ -93,4 +93,19 @@ button{
     justify-content: space-around;
     padding: 10%;
     
+}
+.featured{
+    text-align: center;
+}
+.cards,.card_info{
+    display: flex;
+    justify-content: space-around;
+}
+.card{
+    background-color: white;
+    box-shadow: 2px 5px 10px gray;
+}
+.section4>button{
+    float: right;
+    margin: 30px;
 }
