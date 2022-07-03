@@ -17,12 +17,22 @@ body{
 }
 
 .tabs{
-    justify-content: space-between;
-
-    /* display: inline; */
     display: flex;
+    justify-content: space-around;
+    
+    
+
+}
+
+a{
     text-decoration: none;
-    word-spacing: 50px;
+    color: black;
+    margin: 2%;
+    
+
+}
+a:hover{
+    color: blue;
 }
 
 button{
@@ -137,6 +147,7 @@ ul{
     list-style-type: none ;
 }
 .fa-solid{
-    color: #2549D3 ;
-    margin-left: 20%;
+    color: #0F298B ;
+    margin-left: 10%;
+    font-size: x-large;
 }
