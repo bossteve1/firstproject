@@ -12,7 +12,7 @@ body{
     border-bottom: 0.09px solid  grey;
 }
 
-#header{
+#header,#footer{
     font-family:'Oleo Script', cursive;;
 }
 
@@ -119,4 +119,24 @@ button{
     width: 25%;
     padding: 2%;
     
+}
+#footer{
+    color: white;
+}
+.section6{
+    background-color: #0F298B;
+    padding: 3%;
+    color: white;
+}
+.footers{
+    display: flex;
+    justify-content: space-around;
+}
+
+ul{
+    list-style-type: none ;
+}
+.fa-solid{
+    color: #2549D3 ;
+    margin-left: 20%;
 }
